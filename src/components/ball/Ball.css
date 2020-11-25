@@ -12,6 +12,18 @@
    background: radial-gradient(circle at 100px 100px, #5cabff, #000);
    color: white;
    border-radius: 100%;
-   
+   transition: all .333s cubic-bezier(0.075, 0.82, 0.165, 1);
+   -webkit-transition: all .333s cubic-bezier(0.075, 0.82, 0.165, 1);
+   -moz-transition: all .333s cubic-bezier(0.075, 0.82, 0.165, 1);
+   -ms-transition: all .333s cubic-bezier(0.075, 0.82, 0.165, 1);
+   -o-transition: all .333s cubic-bezier(0.075, 0.82, 0.165, 1);
 
+}
+
+.Ball:hover {
+   transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   -o-transform: scale(1.1);
 }
