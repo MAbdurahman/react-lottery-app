@@ -1,0 +1,17 @@
+.Ball {
+   width: 100px;
+   height: 100px;
+   margin: 0;
+   padding-top: 1.33em;
+   text-align: center;
+   margin-right: 0.5em;
+   display: inline-block;
+   font-weight: bold;
+   font-size: 1.5em;
+   background: black;
+   background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+   color: white;
+   border-radius: 100%;
+   
+
+}

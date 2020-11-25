@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import Lottery from './components/lottery/Lottery';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>React-Lottery-App</h1>
+      <Lottery />
+      {/* <Lottery title='Daily Lotto' maxNum={9} numBalls={3} /> */}
     </div>
   );
 }

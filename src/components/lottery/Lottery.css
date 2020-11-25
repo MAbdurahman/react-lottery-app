@@ -1,0 +1,64 @@
+.Lottery {
+   width: 750px;
+   padding: 1em 0 2em 0;
+   text-align: center;
+   margin: 1em auto auto;
+   border-radius: 10px;
+   border: 8px solid #423E37;
+   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.Lottery__title {
+
+   margin-bottom: 1em;
+   font-size: 3rem;
+   font-weight: 800;
+   text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+
+}
+
+.Lottery__balls {
+   margin-bottom: 2.67em;
+
+}
+
+.Lottery__button button {
+   padding: .5em;
+   font-size: 2rem;
+   letter-spacing: 2px;
+   background-color: #423E37;
+   color: #EDEBD7;
+   border: 2px solid #423E37;
+   border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   -ms-border-radius: 8px;
+   -o-border-radius: 8px;
+   transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -webkit-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -moz-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -ms-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   -o-transition: all .333s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+   box-shadow: 0 9px #999;
+}
+
+.Lottery__button button:hover {
+   color: #EDEBD7;
+   background-color: #6E675F;
+   transform: scale(1.0125);
+   -webkit-transform: scale(1.0125);
+   -moz-transform: scale(1.0125);
+   -ms-transform: scale(1.0125);
+   -o-transform: scale(1.0125);
+   cursor: pointer;
+}
+
+.Lottery__button button:active {
+   color: #EDEBD7;
+   letter-spacing: 1;
+   background-color: #6E675F;
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+}
