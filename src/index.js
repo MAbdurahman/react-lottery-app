@@ -4,12 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ //****************Variables ****************//
+const root_id = document.getElementById('root');
+
+ //****************Functions ****************//
+function render() {
+	ReactDOM.render(<App />, root_id);
+}
+
+if (module.hot) {
+	module.hot.accept('./App', function () {
+		setTimeout(render);
+	});
+}
+
+render();
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
