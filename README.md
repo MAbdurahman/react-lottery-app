@@ -1,5 +1,5 @@
 # react-lottery-app
-The repo is an example of react from the course "Modern React Bootcamp 
+The repo is an example of react app from the course "Modern React Bootcamp 
 by Colt Steele.
 
 First install node_modules folder
